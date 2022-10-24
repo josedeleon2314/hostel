@@ -7,16 +7,6 @@
     <title>Login</title>
 </head>
 <body>
-    <!-- <form action="/login" method="post">
-        @csrf
-
-        email <br>
-        <input type="email" name="email" id=""><br>
-        password <br>
-        <input type="password" name="password" id=""> <br>
-        <input type="submit" value="Login">
-    </form> -->
-
 
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
@@ -41,8 +31,15 @@
                     <input type="submit" class="btn btn-block btn-login" value="Login">
                 </div>
             </div>
+            <div class="row">
+                <div class="col-md-12 form-group">
+                <a href="/register" class="form-control">Registrarme</a>
+                </div>
+            </div>
         </div>
     </form>
+   
+   
 
 
 
