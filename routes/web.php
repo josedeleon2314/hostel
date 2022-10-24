@@ -19,9 +19,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [LoginController::class,'login']);
 
 Route::get('/register',[RegisterController::class,'show'] );
 

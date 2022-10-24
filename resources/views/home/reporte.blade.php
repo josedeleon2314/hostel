@@ -39,6 +39,13 @@
       @foreach($reportes as $ventas)        
         <td width="5%" align="center">{{$ventas->id}}</td>
         <td width="5%" align="center">{{$ventas->cantidad}}</td>
+        <td width="5%" align="center">{{$ventas->fecini}}</td>
+        <td width="5%" align="center">{{$ventas->fecfin}}</td>
+        <td width="5%" align="center">{{$ventas->valor_uni}}</td>
+        <td width="5%" align="center">{{$ventas->valor_total}}</td>
+
+
+
 
 
       </tbody>
