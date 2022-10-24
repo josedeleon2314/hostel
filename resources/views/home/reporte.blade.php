@@ -22,16 +22,16 @@
             <h3>Cantidad</h3>
           </th>
           <th width="40%">
-            <h3>Articulo</h3>
+            <h3>Fecha Inicial</h3>
           </th>
           <th width="10%">
-            <h3>Cantidad</h3>
+            <h3>Fecha Final</h3>
           </th>
           <th width="10%">
             <h3>Precio</h3>
           </th>
           <th width ="10%">
-            <h3>Acctión</h3>
+            <h3>Precio Total</h3>
           </th>
         </tr>
       </thead>
@@ -57,7 +57,13 @@
 </body>
 </html>
 
-
+<style>
+        body{
+    background-image: 
+    /* linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)), */
+                  url("/img/hab1.jpg");
+}
+</style>
 
 
 
