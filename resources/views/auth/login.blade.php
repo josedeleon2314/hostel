@@ -15,7 +15,7 @@
     <form action="/login" method="post">
     @csrf
         <div class="simple-login-container">
-            <h2>Login Form</h2>
+            <h2>Login Hostel</h2>
             <div class="row">
                 <div class="col-md-12 form-group">
                     <input type="email" class="form-control" placeholder="email" name="email"> 
@@ -49,9 +49,12 @@
 
 <style>
     body{
-    background-color:#5286F3;
+    /* background-color:#5286F3;
     font-size:14px;
-    color:#fff;
+    color:#fff; */
+    background-image: 
+    /* linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)), */
+                  url("/img/hab1.jpg");
 }
 .simple-login-container{
     width:300px;
